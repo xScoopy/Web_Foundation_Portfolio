@@ -1,10 +1,11 @@
 h1{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(128, 128, 128, 0.26);
 }
 h3{
     margin: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -23,22 +24,28 @@ ul {
     font-weight: normal;
     line-height: 1.5;
     display: flex;
-    justify-content: center;
-    padding: 3px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
     list-style: none;
     margin: none;
 }
 li{
-    padding: 20px;
+   
+    padding: 1em;
     
+}
+li::first-letter{
+    font-weight: bold;
 }
 a{
     color: fuchsia;
     text-decoration: overline underline;
     text-decoration-style: none;
+    padding: 1em;
 }
 img{
-    padding: 3px;
+    padding:none;
 }
 p{
     padding: 5px;
